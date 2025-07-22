@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Compras - Cali RP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Bebas Neue', sans-serif;
+      background: #0a0a0a;
+      color: white;
+    }
+
+    .background {
+      background: url('https://i.pinimg.com/736x/9c/86/12/9c86124c47c9a2dd2fc2311aab56e79f.jpg') no-repeat center center;
+      background-size: cover;
+      filter: brightness(0.4) blur(2px);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    nav {
+      background: rgba(0,0,0,0.6);
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: #ff003c;
+      font-size: 28px;
+    }
+
+    .nav-links a {
+      color: #f0f0f0;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 18px;
+    }
+
+    .nav-links a:hover {
+      color: #ff003c;
+    }
+
+    .compras-container {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .compras-container h1 {
+      font-size: 48px;
+      color: #ff003c;
+      margin-bottom: 40px;
+    }
+
+    .compras-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+    }
+
+    .compra-card {
+      background: rgba(0,0,0,0.7);
+      border: 2px solid #ff003c;
+      border-radius: 12px;
+      padding: 30px 20px;
+      width: 280px;
+    }
+
+    .compra-card h3 {
+      font-size: 26px;
+      color: #ff003c;
+    }
+
+    .compra-card p {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+
+    .compra-card ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    .btn {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #ff003c;
+      border: none;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background: #d1002f;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+
+  <nav>
+    <div class="logo">Cali RP</div>
+    <div class="nav-links">
+      <a href="index.html">Inicio</a>
+    </div>
+  </nav>
+
+  <section class="compras-container">
+    <h1>Opciones de Compra</h1>
+    <div class="compras-cards">
+      <div class="compra-card">
+        <h3>VIP ...</h3>
+        <p>$...USD</p>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="compra-card">
+        <h3>VIP ...</h3>
+        <p>$...USD</p>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+      <div class="compra-card">
+        <h3>VIP ...</h3>
+        <p>$...USD</p>
+        <ul>
+          <li>...</li>
+          <li>...</li>
+          <li>...</li>
+        </ul>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
